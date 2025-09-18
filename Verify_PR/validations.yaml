@@ -1,0 +1,12 @@
+GitHub_PR: null
+Jira_Card: SAT-12345
+Jira_Token: null
+Remote_Details:
+  dir: /tmp/verify_script
+  host: ip-10-0-168-110.rhos-01.prod.psi.rdu2.redhat.com
+  pass: null
+  user: root
+expected_changes:
+  app/controllers/hosts_controller.rb:
+    added:
+    removed:

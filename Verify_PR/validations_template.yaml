@@ -1,0 +1,14 @@
+Jira_Token: null
+Remote_Details:
+  host: hostname
+  user: username
+  pass: password
+  dir: /tmp/satellite_codebase
+Jira_Card: a_jira_card_number
+GitHub_PR: a_github_pr_url
+expected_changes:
+  filename_with_relative_path:
+    added:
+      '91': 'something added'
+    removed:
+      '91': 'something removed'
