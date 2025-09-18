@@ -86,15 +86,15 @@ The script follows this precedence order:
 ## Example
 
 ```bash
-# Verify changes from SAT-37365
-python3 Verify_PR.py SAT-37365
+# Verify changes from SAT-12345
+python3 Verify_PR.py SAT-12345
 
 # Verify changes from GitHub PR
 python3 Verify_PR.py https://github.com/org/repo/pull/123
 
-# Verify changes from SAT-37365 into Satellite server
-python3 Verify_PR.py SAT-37365 ip-10-0-168-110.rhos-01.prod.psi.rdu2.redhat.com
+# Verify changes from SAT-12345 into Satellite server
+python3 Verify_PR.py SAT-12345 abc.example.com
 
 # Verify changes from GitHub PR into Satellite server
-python3 Verify_PR.py https://github.com/org/repo/pull/123 ip-10-0-168-110.rhos-01.prod.psi.rdu2.redhat.com
+python3 Verify_PR.py https://github.com/org/repo/pull/123 abc.example.com
 ```
